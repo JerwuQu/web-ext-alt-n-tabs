@@ -1,4 +1,4 @@
-const webExtName = 'Control+<number> Tab switcher';
+const webExtName = 'Alt+<number> Tab switcher';
 const queryInfo = { windowId: browser.windows.WINDOW_ID_CURRENT };
 
 browser.commands.onCommand.addListener((command) => {
