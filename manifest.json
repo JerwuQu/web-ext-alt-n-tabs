@@ -3,8 +3,13 @@
     "name": "Alt+<number> Tab switcher",
     "short_name": "Alt tabs",
     "description": "Maps Alt+<number> as a hotkey to focus tab <number>",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": "Marcus Ramse",
+    "applications": {
+        "gecko": {
+            "id": "web-ext-alt-n-tabs@ramse.se"
+        }
+    },
     "background": {
         "scripts": [
             "tab-hotkeys.js"
